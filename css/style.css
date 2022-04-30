@@ -181,6 +181,12 @@ img {
   color: rgba(30, 144, 255, 0.6);
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+
+}
+
 .box-2-links {
   display: flex;
   align-items:center;
@@ -189,6 +195,8 @@ img {
 
 
 .box-2-span-1 {
+  display: flex;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
@@ -212,6 +220,12 @@ img {
   line-height: 16px;
   color: #888888;
   margin-right: 25px;
+  margin-left: 4px;
+}
+
+.box-2-span-2 {
+  display: flex;
+  align-items: center;
 }
 
 .box-2-span-2::before {
@@ -232,6 +246,7 @@ img {
   font-size: 14px;
   line-height: 16px;
   color: #666666;
+  margin-left: 4px;
 }
 
 .bottom-link {
