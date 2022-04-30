@@ -94,6 +94,14 @@ img {
   letter-spacing: 2px;
 }
 
+.hero-link:hover {
+  background-color:rgba(30, 144, 255, 0.8);
+}
+
+.hero-link:active {
+  background-color: rgba(30, 144, 255, 0.6);
+}
+
 .hero-link-inner {
   display: flex;
   padding: 12px 24px;
@@ -165,6 +173,14 @@ img {
   color: #222222;
 }
 
+.box-2-heading:hover {
+  color: #1E90FF;
+}
+
+.box-2-heading:active {
+  color: rgba(30, 144, 255, 0.6);
+}
+
 .box-2-links {
   display: flex;
   align-items:center;
@@ -218,8 +234,9 @@ img {
   color: #666666;
 }
 
-.btn {
-  width: 100%;
+.bottom-link {
+  display: block;
+  width: 600px;
   margin: 0;
   margin-top: 24px;
   padding-top: 12px;
@@ -231,8 +248,17 @@ img {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
+  text-decoration: none;
+  text-align: center;
 }
 
+.bottom-link:hover {
+  background-color: rgba(30, 144, 255, 0.8);
+}
+
+.bottom-link:active {
+  background-color: rgba(30, 144, 255, 0.6);
+}
 
 
 
